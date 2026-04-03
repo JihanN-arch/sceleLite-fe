@@ -29,7 +29,7 @@ export default function ManageCourse() {
       } catch (err) {
         console.error("Fetch error:", err);
         toast.error("Gagal memuat data");
-        navigate("/dashboard");
+        navigate("/home");
       } finally {
         setLoading(false);
       }
@@ -42,7 +42,7 @@ export default function ManageCourse() {
       try {
         await deleteCourse(id);
         toast.success("Mata kuliah berhasil dihapus");
-        navigate("/dashboard");
+        navigate("/home");
       } catch (err) {
         toast.error("Gagal menghapus mata kuliah");
       }
