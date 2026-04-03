@@ -14,3 +14,6 @@ Repositori ini adalah antarmuka pengguna (UI) dari SceleLite.
 - Axios (API Client)
 - Lucide React (Icons)
 - React Hot Toast (Notifications)
+
+## 📌 Future Updates & Disclaimer
+> **Note**: repo ini msh dlm tahap pengembangan, setelah kesibukan mereda aku akan lanjutin lgi projek ini sbgai sarana latihan hehe
